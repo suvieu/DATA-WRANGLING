@@ -42,6 +42,9 @@ print(dat)
 **MERGE则是根据共同列进行合并，LEFT JOIN是以左表为基础，向右合并；RIGHT JOIN 从右往左合并，INNER JOIN 只合并两个表共同的部分，相当于交集；OUTER JOIN 全部合并，相当于并集**
 
 
+
+
+
 ### CUT基础用法 ###
 **CUT方法将一个一维数组按要求分割成若干##
 ```
