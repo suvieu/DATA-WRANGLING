@@ -21,11 +21,12 @@ grouped_age=user.groupby('Age').size()
 grouped_age=user.groupby(['Age','Gender']).size()
 print（grouped_Age.size()）
 ```
+<br>
 
 ### ILOC和LOC的用法 ###
 **ILOC是根据行号来选取对应的行或列；LOC是根据标签(索引)来选取对应的行或列**
 
-
+<br>
 
 ### CONCAT和MERGE的用法 ###
 
@@ -43,7 +44,7 @@ print(dat)
 
 
 
-
+<br>
 
 ### CUT基础用法 ###
 **CUT方法将一个一维数组按要求分割成若干##
