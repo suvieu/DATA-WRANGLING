@@ -22,7 +22,7 @@ grouped_age=user.groupby(['Age','Gender']).size()
 print（grouped_Age.size()）
 ```
 
-**分组后显示两种计算结果**
+**分组后显示两种统计结果，agg的用法是按照圆括号里的列做聚合(这里是是‘Fireplace’列；按照方括号里的列进行统计(这里是['Price','LivingArea']))**
 ```python
 print(doc.groupby(['Fireplace'])['Price','LivingArea'].agg(['mean','std']))
 ```
