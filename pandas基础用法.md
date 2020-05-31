@@ -21,6 +21,13 @@ grouped_age=user.groupby('Age').size()
 grouped_age=user.groupby(['Age','Gender']).size()
 print（grouped_Age.size()）
 ```
+
+**分组后显示两种计算结果**
+```python
+print(doc.groupby(['Fireplace'])['Price','LivingArea'].agg(['mean','std']))
+```
+
+
 <br>
 
 ### ILOC和LOC的用法 ###
