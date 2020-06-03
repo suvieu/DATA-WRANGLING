@@ -26,7 +26,7 @@ print（grouped_Age.size()）
 ```python
 print(doc.groupby(['Fireplace'])['Price','LivingArea'].agg(['mean','std']))
 ```
-
+![image](https://github.com/suvieu/DATA-WRANGLING/blob/master/PIC/1.png)
 
 <br>
 
