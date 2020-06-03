@@ -14,7 +14,7 @@ print(grouped_age)
 **也可以在后面跟.mean()或者.median() 得出某组的平均数和中位数**
 
 ```python
-grouped_age=user.groupby('Age').size()
+grouped_age=user.groupby('Age').mean()
 ```
 **可以在groupby后面的括号里添加两个列名**
 ```python
