@@ -30,6 +30,20 @@ print(doc.groupby(['Fireplace'])['Price','LivingArea'].agg(['mean','std']))
 
 <br>
 
+### APPLY用法 ###
+**将事先定义好的函数运用到指定dataframe的行或列的每一个元素中**
+```python
+def re_code(x):
+    if x ==1:
+        return "Y"
+    else:
+        return "N"\
+
+df['FP']=df['Fireplace'].apply(re_code)
+print(doc['FP'])
+```
+
+
 ### ILOC和LOC的用法 ###
 **ILOC是根据行号来选取对应的行或列；LOC是根据标签(索引)来选取对应的行或列**
 ```python
@@ -74,6 +88,11 @@ print(pd.cut(ages, 5,labels=["婴儿","青年","中年","壮年","老年"]))
 pd.cut(train['Item_Visibility'],(0.000,0.065,0.13,0.2),labels=['Low Viz','Viz','High Viz'])
 ```
 **这里把train里的名为Item_Visibility的列中的数据按照0.000~0.065,0.065~0.13,0.13~0.2分成三个区间，并贴上标签**
+
+<br>
+
+
+
 
 
 
