@@ -32,6 +32,10 @@ print(doc.groupby(['Fireplace'])['Price','LivingArea'].agg(['mean','std']))
 
 ### ILOC和LOC的用法 ###
 **ILOC是根据行号来选取对应的行或列；LOC是根据标签(索引)来选取对应的行或列**
+```python
+df.loc([['A'],['C','D']])
+DF.iloc[[0],[2,3]]
+```
 
 <br>
 
