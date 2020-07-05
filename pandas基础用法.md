@@ -37,7 +37,7 @@ def re_code(x):
     if x ==1:
         return "Y"
     else:
-        return "N"\
+        return "N"
 
 df['FP']=df['Fireplace'].apply(re_code)
 print(doc['FP'])
@@ -72,7 +72,7 @@ print(dat)
 <br>
 
 ### CUT基础用法 ###
-**CUT方法将一个一维数组按要求分割成若干##
+**CUT方法将一个一维数组按要求分割成若干**
 ```
 ages = np.array([1,5,10,40,36,12,58,62,77,89,100,18,20,25,30,32])
 print(pd.cut(ages, 5))
