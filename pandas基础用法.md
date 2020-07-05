@@ -87,7 +87,7 @@ print(pd.cut(ages, 5,labels=["婴儿","青年","中年","壮年","老年"]))
 ```
 pd.cut(train['Item_Visibility'],(0.000,0.065,0.13,0.2),labels=['Low Viz','Viz','High Viz'])
 ```
-**这里把train里的名为Item_Visibility的列中的数据按照0.000~0.065,0.065~0.13,0.13~0.2分成三个区间，并贴上标签**
+**这里把train里的名为Item_Visibility的列中的数据按照0.000-0.065,0.065-0.13,0.13-0.2分成三个区间，并贴上标签**
 
 <br>
 
